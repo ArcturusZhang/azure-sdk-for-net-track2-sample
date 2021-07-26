@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Core" Version="1.16.0" />
+    <PackageReference Include="Azure.Identity" Version="1.4.0" />
+    <PackageReference Include="Azure.ResourceManager" Version="1.0.0-alpha.20210723.3" />
+    <Reference Include="Azure.ResourceManager.Compute">
+      <HintPath>..\..\azure-sdk-for-net\artifacts\bin\Azure.ResourceManager.Compute\Debug\netstandard2.0\Azure.ResourceManager.Compute.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.ResourceManager.Network">
+      <HintPath>..\..\azure-sdk-for-net\artifacts\bin\Azure.ResourceManager.Network\Debug\netstandard2.0\Azure.ResourceManager.Network.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
